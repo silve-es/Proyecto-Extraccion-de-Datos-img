@@ -1,6 +1,6 @@
-# Proyecto de Parsers de PDFs con Python y RegEx
+# Proyecto de Parsers de PDFs con n8n
 
-automatice la extracción de datos de facturas y órdenes de pago en PDF que tienen formatos totalmente distintos. La idea es armar un script en Python que lea el PDF y me devuelva la info limpia en un JSON estructurado, dejándola lista para que el área de integraciones la conecte con cualquier ERP o sistema contable.
+automatice la extracción de datos de facturas electrónicas en PDF que tienen formatos totalmente distintos. La idea es una arquitectura gmail - n8n - agente de ia -, para extraer los datos de la factura electrónica en gmail y lo registre en el excel, esto pensado para esa persona que carga c9ada semana cada cierto tiempo la misma factura (en este caso, 3 facturas, woker, edesur y rus.
 
 ---
 
