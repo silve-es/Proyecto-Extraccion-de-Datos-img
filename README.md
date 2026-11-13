@@ -1,6 +1,6 @@
 # Proyecto de Parsers de PDFs con n8n
 
-automatice la extracción de datos de facturas electrónicas en PDF que tienen formatos totalmente distintos. La idea es una arquitectura gmail - n8n - agente de ia -, para extraer los datos de la factura electrónica en gmail y lo registre en el excel, esto pensado para esa persona que carga c9ada semana cada cierto tiempo la misma factura (en este caso, 3 facturas, woker, edesur y rus.
+Este proyecto consiste en el desarrollo de un pipeline de automatización ETL (Extract, Transform, Load) sin código (no-code/low-code) utilizando n8n. El sistema intercepta correos electrónicos entrantes en Gmail que contienen comprobantes de facturación (imágenes o documentos), procesa el archivo mediante un modelo de lenguaje multimodal con capacidades de visión (Google Gemini), extrae los campos clave de forma estructurada y los registra automáticamente en una planilla de Google Sheets.
 
 ---
 
