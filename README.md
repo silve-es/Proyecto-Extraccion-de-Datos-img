@@ -1,6 +1,6 @@
 # Automatización de Extracción y Registro de Facturas con n8n y Gemini AI
 
-Este proyecto consiste en el desarrollo de un pipeline de automatización ETL (Extract, Transform, Load) sin código (no-code/low-code) utilizando n8n. El sistema intercepta correos electrónicos entrantes en Gmail que contienen comprobantes de facturación (imágenes o documentos), procesa el archivo mediante un modelo de lenguaje multimodal con capacidades de visión (Google Gemini), extrae los campos clave de forma estructurada y los registra automáticamente en una planilla de Google Sheets.
+Este proyecto consiste en el desarrollo de un pipeline de automatización ETL (Extract, Transform, Load) sin código (no-code/low-code) utilizando n8n. El sistema intercepta correos electrónicos entrantes en Gmail que contienen comprobantes de facturación (imágenes), procesa el archivo mediante un modelo de lenguaje multimodal con capacidades de visión (Google Gemini), extrae los campos clave de forma estructurada y los registra automáticamente en una planilla de Google Sheets.
 
 ---
 # Objetivos del Proyecto
